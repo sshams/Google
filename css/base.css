@@ -1,0 +1,88 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+article, aside, figure, footer, header, hgroup, nav, section {display: block;}
+#wrapper {
+	background-image: url(../images/tour_bg.png);
+	background-repeat: repeat-x;
+	margin: auto;
+	width: 100%;
+}
+#wrapper #container {
+	margin: auto;
+	width: 980px;
+}
+#wrapper #container #tour {
+	height: 55px;
+	width: 195px;
+}
+#wrapper #container #world {
+	height: 48px;
+	width: 400px;
+	margin: auto;
+	line-height: 48px;
+	text-align: center;
+	color: #FFF;
+}
+#world p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	font-weight:400;
+}
+#wrapper #container #products {
+	height: 360px;
+	width: 980px;
+	margin-top: 113px;
+}
+#wrapper #container #products #leftWrapper {
+	height: 220px;
+	width: 114px;
+	float: left;
+	padding-top: 140px;
+}
+#wrapper #container #products #mask {
+	float:left;
+    height: 360px;
+    width: 752px; 
+    margin:0 auto;
+    overflow: hidden; 
+}
+#wrapper #container #products #mask #scroller {
+	float: left;
+	margin-right: -30000px;/*Be safe with Opera's limited negative margin of 32695px (-999em could cause problems with large font sizes)*/
+	margin-left: 0px;
+}
+#wrapper #container #products #mask #scroller div, #wrapper #container #products #mask #scroller section {
+	float: left;
+	height: 360px;
+	width: 752px;
+}
+#wrapper #container #products #rightWrapper {
+	float: left;
+	height: 220px;
+	width: 114px;
+	text-align: right;
+	padding-top: 140px;
+}
+#leftWrapper img, #rightWrapper img {
+	cursor:pointer;	
+}
+#wrapper #container #menu {
+	float: left;
+	height:18px;
+	width:980px;
+	margin:55px 0px 0px 0px;
+	text-align:center;
+}
+#wrapper #container #menu div {
+	background-image: url(../images/dots.jpg);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	height: 18px;
+	width: 18px;
+	margin: 0px 5px;
+	cursor:pointer;
+	float: left;
+}
